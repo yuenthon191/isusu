@@ -75,7 +75,7 @@ console.log('-----ปริ้นทั้งหมด-----' + JSON.stringify(da
 function data_enter(sende_r, beacon_id) {
 
 
-   var checktime = "https://script.google.com/macros/s/AKfycbynicaTfW8EF2RP4_3CZ7_WZ7bmr-YIp1OAmHLK_U5J_RgvjQg/exec?userId="+sende_r+"&beaconid="+beacon_id;
+   var checktime = "https://script.google.com/macros/s/AKfycbwvUb7_1V37arN7US6mvEG5_oWt-wPoeIgBR_Uir6t9-F72kz8/exec?userId="+sende_r+"&beaconid="+beacon_id;
  request(checktime, function (error, response, body) {
 
 })
@@ -108,14 +108,14 @@ var options = {
         var info = JSON.parse(body);
         name = info.displayName;
         
-          if(beacon_id == "01375e9661"){
+          if(beacon_id == "013b4af477"){
          var msg = {
            "type": "text",
            "text": "ระบบได้บันทึกการตรวจจุดของ"+" " +name +" " + "ไว้เรียบร้อยแล้ว"
 
           }; 
         reply(reToken, msg, sende_r, beacon_id);    
-         }else if(beacon_id == "01375e9a1e"){
+         }else if(beacon_id == "013b4b5c5d"){
          var msg = {
            "type": "text",
            "text": "ระบบได้บันทึกการตรวจจุดของ"+" " +name +" " + "ไว้เรียบร้อยแล้ว"
