@@ -111,14 +111,14 @@ var options = {
           if(beacon_id == "013b4af477"){
          var msg = {
            "type": "text",
-           "text": "ระบบได้บันทึกการตรวจจุดของ"+" " +name +" " + "ไว้เรียบร้อยแล้ว"
+           "text": "ระบบได้บันทึกการตรวจจุดตรวจหน้าโชว์รูมของ"+" " +name +" " + "ไว้เรียบร้อยแล้ว"
 
           }; 
         reply(reToken, msg, sende_r, beacon_id);    
          }else if(beacon_id == "013b4b5c5d"){
          var msg = {
            "type": "text",
-           "text": "ระบบได้บันทึกการตรวจจุดของ"+" " +name +" " + "ไว้เรียบร้อยแล้ว"
+           "text": "ระบบได้บันทึกการตรวจจุดล้างรถของ"+" " +name +" " + "ไว้เรียบร้อยแล้ว"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }
@@ -126,14 +126,14 @@ var options = {
         else if(beacon_id == "01375eb79f"){
          var msg = {
            "type": "text",
-           "text": "ระบบได้บันทึกการตรวจจุดของ"+" " +name +" " + "ไว้เรียบร้อยแล้ว"
+           "text": "ระบบได้บันทึกการตรวจจุดตรวจศูนย์บริการซ่อมสีและตัวถังของ"+" " +name +" " + "ไว้เรียบร้อยแล้ว"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }
         else if(beacon_id == "0137602f7f"){
          var msg = {
            "type": "text",
-           "text": "ระบบได้บันทึกการตรวจจุดของ"+" " +name +" " + "ไว้เรียบร้อยแล้ว"
+           "text": "ระบบได้บันทึกการตรวจจุดตรวจจุดตกแต่งของ"+" " +name +" " + "ไว้เรียบร้อยแล้ว"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }
