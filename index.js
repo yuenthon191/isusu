@@ -123,14 +123,14 @@ var options = {
         reply(reToken, msg, sende_r, beacon_id);   
          }
          
-        else if(beacon_id == "01375eb79f"){
+        else if(beacon_id == "013b4ca921"){
          var msg = {
            "type": "text",
            "text": "ระบบได้บันทึกการตรวจจุดตรวจศูนย์บริการซ่อมสีและตัวถังของ"+" " +name +" " + "ไว้เรียบร้อยแล้ว"
           }; 
         reply(reToken, msg, sende_r, beacon_id);   
          }
-        else if(beacon_id == "0137602f7f"){
+        else if(beacon_id == "013b4dc240"){
          var msg = {
            "type": "text",
            "text": "ระบบได้บันทึกการตรวจจุดตรวจจุดตกแต่งของ"+" " +name +" " + "ไว้เรียบร้อยแล้ว"
